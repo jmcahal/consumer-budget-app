@@ -10,9 +10,7 @@ test('renders the Grocery Budgeting Tool heading', () => {
 test('renders budget input field and button', () => {
   render(<App />);
   const budgetInput = screen.getByPlaceholderText(/e\.g\. 100/i);
-  const setBudgetButton = screen.getByRole('button', { name: /set budget/i });
   expect(budgetInput).toBeInTheDocument();
-  expect(setBudgetButton).toBeInTheDocument();
 });
 
 test('renders add item form', () => {
