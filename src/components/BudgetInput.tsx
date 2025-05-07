@@ -28,7 +28,7 @@ export default function BudgetInput({ onSetBudget }: Props) {
         step="0.01"
         required
       />
-      <button type="submit">Set Budget</button>
+      <button type="submit" name="Set Budget">Set Budget</button>
     </form>
   );
 }
